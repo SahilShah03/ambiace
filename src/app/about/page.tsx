@@ -98,45 +98,7 @@ const AboutPage = () => {
           </motion.div>
         </div>
 
-        {/* Founder's Desk Section */}
-        <div className="mt-16 md:mt-24 text-center">
-          <p className="text-lg text-gray-600 font-serif italic">Founder&apos;s</p>
-          <h2 className="text-3xl font-bold text-gray-900 mb-12">Desk</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg"
-            >
-              <Image
-                src="/founder.jpg"
-                alt="Tejal - Founder & CEO"
-                fill
-                className="object-cover"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-left space-y-4"
-            >
-              <p className="text-lg leading-relaxed text-gray-700">
-                Tejal, a visionary founder and CEO, brings a wealth of expertise to the table. As an
-                accomplished architect with a strong aesthetic sense, her work seamlessly integrates
-                architecture and interior design. Notably, Tejal has collaborated with renowned celebrity
-                architects, showcasing her ability to thrive in high-profile environments. Her commitment to
-                sustainability is evident through her final-year thesis, where she pioneered the concept of an
-                Experience Center constructed from recycled plastic. Tejal&apos;s journey exemplifies a seamless
-                blend of artistic flair, strategic leadership, and a profound dedication to innovative, eco-
-                friendly design, including bespoke interior designing services.
-              </p>
-            </motion.div>
-          </div>
-        </div>
-      </div>
-      
+    
       {/* Logo at the End */}
       <div className="w-full flex justify-center py-12 bg-white">
         <div className="flex items-center space-x-4">
