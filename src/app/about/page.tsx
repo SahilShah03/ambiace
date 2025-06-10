@@ -97,8 +97,8 @@ const AboutPage = () => {
             </div>
           </motion.div>
         </div>
-
-    
+      </div>
+      
       {/* Logo at the End */}
       <div className="w-full flex justify-center py-12 bg-white">
         <div className="flex items-center space-x-4">
